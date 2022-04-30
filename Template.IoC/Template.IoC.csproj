@@ -9,6 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Template.Data\Template.Data.csproj" />
+    <ProjectReference Include="..\Template.Domain\Template.Domain.csproj" />
     <ProjectReference Include="..\TemplateApplication\Template.Application.csproj" />
   </ItemGroup>
 
