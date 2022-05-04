@@ -25,6 +25,8 @@ namespace Template.Data.Context
         {
             modelBuilder.ApplyConfiguration(new UserMap());
 
+            modelBuilder.ApplyGlobalConfigurations();
+
             modelBuilder.SeedData();
 
             base.OnModelCreating(modelBuilder);
