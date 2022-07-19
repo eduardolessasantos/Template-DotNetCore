@@ -34,6 +34,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Template.Data\Template.Data.csproj" />
     <ProjectReference Include="..\Template.IoC\Template.IoC.csproj" />
+    <ProjectReference Include="..\Template.Swagger\Template.Swagger.csproj" />
     <ProjectReference Include="..\TemplateApplication\Template.Application.csproj" />
   </ItemGroup>
 
